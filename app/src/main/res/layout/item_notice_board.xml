@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_8sdp"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_7sdp"
+        android:background="@drawable/border_black">
+
+        <View
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/border_bottom_left" />
+
+        <View
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/border_bottom_right" />
+
+        <View
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/border_top_left" />
+
+        <View
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/border_top_right" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/bg_corner_primary"
+            android:gravity="center"
+            android:justificationMode="inter_word"
+            android:padding="@dimen/_6sdp"
+            android:text="Notice 1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textMedium12x"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_below="@id/web_notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:gravity="right|bottom"
+            android:justificationMode="inter_word"
+            android:padding="@dimen/_8sdp"
+            android:text="Notice 1 fhdjh"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSmall10x"
+            android:textStyle="bold" />
+
+        <WebView
+            android:id="@+id/web_notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:padding="@dimen/_4sdp"
+            android:scrollbars="none"
+            android:textColor="@color/grey_60"
+            android:textStyle="bold"
+            tools:ignore="WebViewLayout" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

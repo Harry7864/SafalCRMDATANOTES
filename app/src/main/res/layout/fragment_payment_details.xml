@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/_5sdp"
+    tools:context=".Activity.Registration.PaymentDetailsFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/heaed"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorthemegrey"
+            android:textSize="@dimen/textMedium12x"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:paddingLeft="@dimen/_5sdp"
+            android:text=" 101, Parshwa Tower,\n Above Kotak Mahindra Bank
+Bodakdev, \n Ahmedabad, India (380054)"/>
+        <TextView
+            android:layout_marginTop="@dimen/_10sdp"
+            android:paddingLeft="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textMedium12x"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/ic_call"
+            android:drawableTint="@color/colorthemegrey"
+            android:drawablePadding="@dimen/_5sdp"
+            android:autoLink="phone"
+            android:textColorLink="@color/colorPrimary"
+            android:text="+91 98252 93889"/>
+        <TextView
+            android:paddingBottom="@dimen/_10sdp"
+            android:paddingLeft="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textMedium12x"
+            android:textStyle="bold"
+            android:autoLink="email"
+            android:drawableLeft="@drawable/ic_mail"
+            android:drawableTint="@color/colorthemegrey"
+            android:drawablePadding="@dimen/_5sdp"
+            android:textColorLink="@color/colorPrimary"
+            android:text="contact@zoobiz.in"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@id/heaed"
+        android:padding="@dimen/_5sdp"
+        android:orientation="vertical"
+        android:background="@color/grey_10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Bill To "/>
+        <TextView
+            android:id="@+id/txt_userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Name"/>
+        <TextView
+            android:id="@+id/txt_userMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile"/>
+        <TextView
+            android:id="@+id/txt_userAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Address"/>
+        <TextView
+            android:id="@+id/txt_userDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DD-MM-YYYY"
+            android:textStyle="bold"
+            android:textSize="@dimen/textMedium12x"
+            android:textColor="@color/colorthemeblue"
+            android:gravity="right"/>
+        <LinearLayout
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="5"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textMedium12x"
+                    android:textColor="@color/white"
+                    android:text="No."
+                    android:padding="@dimen/_5sdp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:background="@color/grey_40"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:layout_weight="2"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textMedium12x"
+                    android:textColor="@color/white"
+                    android:text="Plan Name"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:background="@color/grey_40"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textMedium12x"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="Amount (₹)"
+                    android:gravity="center"
+                    android:background="@color/grey_40"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="5"
+                android:paddingBottom="@dimen/_2sdp"
+                android:background="@color/grey_40">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/textMedium12x"
+                    android:textColor="@color/grey_60"
+                    android:text="1."
+                    android:padding="@dimen/_5sdp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:background="@color/white"/>
+                <TextView
+                    android:id="@+id/txt_planName"
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:layout_weight="2"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textMedium12x"
+                    android:textColor="@color/grey_60"
+                    android:text="1 Year Plan ( 20000 + 18 % GSt)"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:background="@color/white"/>
+                <TextView
+                    android:id="@+id/txt_planAmount"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/textMedium12x"
+                    android:textColor="@color/grey_60"
+                    android:textStyle="bold"
+                    android:text="₹ 0.00"
+                    android:gravity="left|center"
+                    android:background="@color/white"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--IGST
+        -->
+        <LinearLayout
+            android:id="@+id/lyt_igst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="5"
+                android:background="@color/white">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/textMedium12x"
+                    android:textColor="@color/grey_60"
+                    android:textStyle="bold"
+                    android:text="IGST (18%)"
+                    android:gravity="right"
+                    android:background="@color/white"/>
+                <TextView
+                    android:id="@+id/txt_igst"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/textMedium12x"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="₹ 0.00"
+                    android:gravity="left"
+                    android:background="@color/grey_40"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--CGST-->
+        <LinearLayout
+            android:id="@+id/lyt_cgst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="5"
+                android:background="@color/white">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/textMedium12x"
+                    android:textColor="@color/grey_60"
+                    android:textStyle="bold"
+                    android:text="CGST (9 %)"
+                    android:gravity="right"
+                    android:background="@color/white"/>
+                <TextView
+                    android:id="@+id/txt_cgst"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/textMedium12x"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="₹ 0.00"
+                    android:gravity="left"
+                    android:background="@color/grey_40"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--SGST-->
+        <LinearLayout
+            android:id="@+id/lyt_sgst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="5"
+                android:background="@color/white">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/textMedium12x"
+                    android:textColor="@color/grey_60"
+                    android:textStyle="bold"
+                    android:text="SGST (9 %)"
+                    android:gravity="right"
+                    android:background="@color/white"/>
+                <TextView
+                    android:id="@+id/txt_sgst"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/textMedium12x"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="₹ 0.00"
+                    android:gravity="left"
+                    android:background="@color/grey_40"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--Total Amount-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="5"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/textMedium12x"
+                    android:textColor="@color/grey_60"
+                    android:textStyle="bold"
+                    android:text="Payable Amount"
+                    android:gravity="right"
+                    android:background="@color/white"/>
+                <TextView
+                    android:id="@+id/txt_pay_amount"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/textMedium12x"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="₹ 0.00"
+                    android:gravity="left"
+                    android:background="@color/grey_40"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

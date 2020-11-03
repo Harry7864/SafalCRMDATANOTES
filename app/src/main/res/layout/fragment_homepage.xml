@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.HomePage.Homepage">
+
+    <LinearLayout
+        android:id="@+id/rel_home_view"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey_5"
+        android:visibility="visible">
+
+       <!-- <LinearLayout
+            android:id="@+id/lyt_banner"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_180sdp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/grey_20"/>
+        </LinearLayout>
+-->
+
+        <RelativeLayout
+            android:id="@+id/lyt_banner"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_178sdp">
+
+            <com.example.safalcrm.loopingviewpager.LoopingViewPager
+                android:id="@+id/viewPagernew"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:isInfinite="true"
+                app:autoScroll="true"
+                android:clipToPadding="false"
+                app:scrollInterval="3000"/>
+
+            <com.example.safalcrm.loopingviewpager.indicator.CustomShapePagerIndicator
+                android:id="@+id/indicator"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:indicator_spacing="4dp"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/colorthemegrey"/>
+
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nest"
+            android:layout_below="@id/lyt_banner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recy_home_menu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:paddingBottom="@dimen/_45sdp"
+                        android:focusableInTouchMode="false"
+                        android:nestedScrollingEnabled="false"
+                        android:scrollbars="none"
+                        tools:ignore="UnusedAttribute" />
+
+
+                 </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+
+        <ProgressBar
+            android:id="@+id/menu_loading"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminateTint="@color/colorPrimary"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

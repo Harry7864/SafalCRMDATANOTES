@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SearchableSpinner">
+        <attr name="hintText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="nocropper__CropperView">
+        <attr name="nocropper__grid_color" format="color" />
+        <attr name="nocropper__grid_thickness" format="dimension" />
+        <attr name="nocropper__grid_opacity" format="float" />
+        <attr name="nocropper__padding_color" format="color" />
+        <attr name="nocropper__add_padding_to_make_square" format="boolean" />
+        <attr name="nocropper__fit_to_center" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="ExoPlayerView">
+        <attr name="exo_resize_mode" />
+        <attr name="exo_aspect_ratio" />
+        <attr name="exo_full_screen" format="boolean" />
+        <attr name="exo_play_when_ready" format="boolean" />
+        <attr name="exo_show_controller" format="boolean" />
+    </declare-styleable>
+
+    <attr name="exo_resize_mode" format="enum">
+        <enum name="Fit" value="1" />
+        <enum name="Fill" value="2" />
+        <enum name="Zoom" value="3" />
+    </attr>
+
+    <attr name="exo_aspect_ratio" format="enum">
+        <enum name="aspect_1_1" value="1" />
+        <enum name="aspect_16_9" value="2" />
+        <enum name="aspect_4_3" value="3" />
+        <enum name="aspect_match" value="4" />
+        <enum name="aspect_mp3" value="5" />
+    </attr>
+
+    <declare-styleable name="MessageTextView">
+        <attr name="widget_id_top" format="integer" />
+        <attr name="widget_id_bottom" format="integer" />
+        <attr name="widget_id_link_preview" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="RecordView">
+        <attr name="slide_to_cancel_text" format="string" />
+        <attr name="slide_to_cancel_arrow" format="reference" />
+        <attr name="slide_to_cancel_margin_right" format="dimension" />
+
+    </declare-styleable>
+
+    <declare-styleable name="RecordButton">
+
+        <attr name="src" format="reference" />
+
+    </declare-styleable>
+
+    <declare-styleable name="CustomShapePagerIndicator">
+        <attr name="indicator_spacing" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="LoopingViewPager">
+        <attr name="isInfinite" format="boolean" />
+        <attr name="autoScroll" format="boolean" />
+        <attr name="wrap_content" format="boolean" />
+        <attr name="scrollInterval" format="integer"/>
+        <attr name="viewpagerAspectRatio" format="float"/>
+        <attr name="itemAspectRatio" format="float"/>
+    </declare-styleable>
+
+</resources>

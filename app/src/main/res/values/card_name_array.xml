@@ -1,0 +1,19 @@
+<resources>
+    <array name="card_layout_names">
+        <item>Card 1</item>
+        <item>Card 2</item>
+        <item>Card 3</item>
+        <item>Card 4</item>
+        <item>Card 5</item>
+        <item>Card 6</item>
+        <item>Card 7</item>
+        <item>Card 8</item>
+        <item>Card 9</item>
+        <item>Card 10</item>
+        <item>Card 11</item>
+        <item>Card 12</item>
+        <item>Card 13</item>
+        <item>Card 14</item>
+        <item>Card 15</item>
+    </array>
+</resources>

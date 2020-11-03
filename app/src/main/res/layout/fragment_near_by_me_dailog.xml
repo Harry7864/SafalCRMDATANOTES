@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    tools:context=".Fragment.NearByMeSearch.NearByMeDailogFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="@drawable/background_bottomsheet_title_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_10sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Near by me"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textMedium12x"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:paddingBottom="@dimen/_20sdp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txt_city"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_10sdp"
+                        android:gravity="center"
+                        android:text="City Name"
+                        android:textSize="@dimen/textMedium14x"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorthemegrey"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/_10sdp"
+                            android:text="Radius for search (km) : "
+                            android:textSize="@dimen/textMedium12x"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorthemegrey"/>
+
+                        <TextView
+                            android:id="@+id/txt_range"
+                            android:text="5"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/textMedium14x"
+                            android:textColor="@color/colorthemeblue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+
+                    <com.bq.markerseekbar.MarkerSeekBar
+                        android:id="@+id/rangePicker"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_marginTop="@dimen/_50sdp"
+                        android:max="20"
+                        android:min="1"
+                        app:showMarkerOnTouch="true"
+                        android:progress="5"
+                        app:markerColor="@color/colorPrimary"
+                        app:markerTextColor="@color/white" />
+                </LinearLayout>
+            </ScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp">
+
+                <Button
+                    android:textSize="@dimen/textMedium12x"
+                    android:id="@+id/cancel_bt"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_bottomsheet_btn_left"
+                    android:gravity="center"
+                    android:text="Cancel"
+                    android:textColor="@color/grey_90" />
+
+                <Button
+                    android:id="@+id/done_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_bottomsheet_btn_right"
+                    android:text="Search"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textMedium12x" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

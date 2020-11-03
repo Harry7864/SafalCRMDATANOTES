@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">ZooBiz</string>
+    <string name="terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_retry">Try Again!</string>
+    <string name="resend_code"><u>Resend OTP</u>.</string>
+    <string name="google_places_api_key">AIzaSyAUPcYOnCeZLyHFqI-ssbvwg-f12q8B85A</string>
+    <!--<string name="rozar_pay_test_key">rzp_test_Xt1K2IOvJUAOox</string>
+    -->
+    <string name="rozar_pay_live_key">rzp_live_5y1DZZJ3OBJO75</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_timeline">Timeline</string>
+    <string name="menu_chat">Chat</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="logout">Logout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_tag">Business Through Networking</string>
+    <string name="no_data">No data</string>
+    <string name="submit">Submit</string>
+    <string name="working_hours">Working Hours</string>
+    <string name="select_your_profession">Select Your Profession</string>
+    <string name="website">www.example.com</string>
+    <string name="no_connection">No internet..!</string>
+    <string name="check_internet_connection">Check Internet Connection and Try Again</string>
+
+    <string-array name="discussion">
+        <item>Select Groups *</item>
+        <item>All Resident</item>
+        <item>Owner</item>
+    </string-array>
+
+    <string-array name="salutation">
+        <item>Select Salutation</item>
+        <item>Mr.</item>
+        <item>Mrs.</item>
+        <item>Miss.</item>
+        <item>Ms.</item>
+        <item>Dr.</item>
+        <item>Prof.</item>
+        <item>Other.</item>
+    </string-array>
+
+    <string-array name="salutation_reg">
+        <item>Mr.</item>
+        <item>Mrs.</item>
+        <item>Miss.</item>
+        <item>Ms.</item>
+        <item>Dr.</item>
+        <item>Prof.</item>
+        <item>Other.</item>
+    </string-array>
+    <string-array name="country">
+        <item>India</item>
+        <item>Canada</item>
+        <item>Australia</item>
+        <item>England</item>
+    </string-array>
+    <string-array name="state">
+        <item>Gujarat</item>
+        <item>Maharashtra</item>
+        <item>Delhi</item>
+        <item>Rajashthan</item>
+    </string-array>
+    <string-array name="city">
+        <item>Ahmedabad</item>
+        <item>Jaypur</item>
+        <item>New Delhi</item>
+        <item>Mumbai</item>
+    </string-array>
+    <string-array name="select_city">
+        <item>Select City</item>
+    </string-array>
+    <string-array name="address_type">
+        <item>Primary</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="nameerror" translatable="false">Enter a valid first name</string>
+    <string name="lasterror" translatable="false">Enter a valid last name</string>
+    <string name="emailerror" translatable="false">Enter a valid email</string>
+    <string name="mobileerror" translatable="false">Enter a valid mobile no.</string>
+    <string name="whatserror" translatable="false">Enter a valid whats no.</string>
+    <string name="salutaionerror" translatable="false">Enter a valid salutation </string>
+
+    <string name="companyerror" translatable="false">Enter a valid company name.</string>
+    <string name="addresserror" translatable="false">Enter a valid address.</string>
+    <string name="stateerror" translatable="false">Enter a valid state </string>
+    <string name="countryerror" translatable="false">Enter a valid country </string>
+    <string name="cityerror" translatable="false">Enter a valid city </string>
+    <string name="areaerror" translatable="false">Enter a valid area </string>
+    <string name="pincodeerror" translatable="false">Enter a valid Pincode </string>
+    <string name="no_internet_connection">No Internet Connection!</string>
+    <string name="email">yharendra7862gmail.com</string>
+    <string name="twitter">\@harry</string>
+
+    <string-array name="progress_colors_light">
+        <item>#43A047</item>
+        <item>#00a7f4</item>
+        <item>#8D6E63</item>
+        <item>#3b978a</item>
+        <item>#FB8C00</item>
+        <item>#D84315</item>
+        <item>#7f7f7f</item>
+    </string-array>
+    <string-array name="membershipPlan">
+        <item>1 Year Plan 12 Months (₹ 2000.00)</item>
+        <item>2 Year Plan 24 Months (₹ 3700.00)</item>
+
+    </string-array>
+
+
+    <string-array name="memberRefer">
+        <item>-------- Select --------</item>
+        <item>Social Media</item>
+        <item>Friend</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string-array name="month1">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+</resources>

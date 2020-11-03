@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1079163032359",
+    "firebase_url": "https://zoobiz-61987.firebaseio.com",
+    "project_id": "zoobiz-61987",
+    "storage_bucket": "zoobiz-61987.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079163032359:android:6bace8cc59f36452a2cf02",
+        "android_client_info": {
+          "package_name": "com.example.safalcrm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079163032359-bu5ucibtgeqv7qf1h57b4u837lqpscfl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.silverwing.zoobiz",
+            "certificate_hash": "e55a71ad8b03fb1360c20828a559072cc428e6e6"
+          }
+        },
+        {
+          "client_id": "1079163032359-vkcvm2japv18l1opmfq7hbgp4a7rg6k1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4Lupzp7X7Eu_7ChJpJwAMr1mLc4nBj5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079163032359-vkcvm2japv18l1opmfq7hbgp4a7rg6k1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

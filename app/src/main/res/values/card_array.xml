@@ -1,0 +1,19 @@
+<resources>
+    <array name="card_layout_templates">
+        <!--<item>@drawable/card_one</item>
+        <item>@drawable/card_two</item>
+        <item>@drawable/card_three</item>
+        <item>@drawable/card_four</item>
+        <item>@drawable/card_five</item>
+        <item>@drawable/card_six</item>
+        <item>@drawable/card_seven</item>
+        <item>@drawable/card_eight</item>
+        <item>@drawable/card_nine</item>
+        <item>@drawable/card_ten</item>
+        <item>@drawable/card_eleven</item>
+        <item>@drawable/card_twelve</item>
+        <item>@drawable/card_thirteen</item>
+        <item>@drawable/card_fourteen</item>
+        <item>@drawable/card_fifteen</item>-->
+    </array>
+</resources>

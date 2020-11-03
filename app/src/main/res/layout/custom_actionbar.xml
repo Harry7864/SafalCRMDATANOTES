@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    android:layout_width = "match_parent"
+    android:layout_height = "?attr/actionBarSize"
+    android:gravity = "center_vertical"
+    android:background="@drawable/splash_gradient"
+    android:weightSum = "1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/home"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="left|center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="title"
+
+            android:textSize="@dimen/textMedium14x"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_toLeftOf="@id/adv_search"
+            android:tint="@color/white"
+            app:srcCompat="@drawable/ic_home_black_24dp" />
+        <ImageView
+            android:id="@+id/adv_search"
+            android:layout_alignParentRight="true"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:tint="@color/white"
+            app:srcCompat="@drawable/ic_search" />
+    </RelativeLayout>
+</LinearLayout>

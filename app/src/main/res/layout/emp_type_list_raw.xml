@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+    <RadioButton
+        android:textSize="@dimen/textMedium12x"
+        android:id="@+id/select_emp_type_rb"
+        android:fontFamily="sans-serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        style="@style/radionbutton"
+        android:padding="@dimen/_8sdp"
+        android:text="Self Employed"
+        android:textAlignment="textStart"
+        android:clickable="false"
+        android:focusable="false"/>
+
+    <CheckBox
+        android:id="@+id/select_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:visibility="gone"
+        android:text="Self Employed"
+        android:padding="@dimen/_8sdp"/>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/linLayLikeClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_2sdp"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="horizontal"
+        android:padding="@dimen/_5sdp"
+        tools:ignore="MissingConstraints">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/cir_profile"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:foreground="@color/overlay_light_20"
+            android:src="@drawable/user_default"
+            app:civ_border="false"
+            app:civ_shadow="true"
+            app:civ_shadow_radius="0" />
+
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_7sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center_vertical"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColor="@color/grey_90"
+            android:textSize="@dimen/textMedium12x" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
