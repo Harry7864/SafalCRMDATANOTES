@@ -4,9 +4,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/colorthemeblue"
+    android:background="@color/colorPrimary"
     android:layout_height="match_parent"
-    tools:context=".Activity.Login.LoginActivity">
+    tools:context=".activity.login.LoginActivity">
 
 
     <RelativeLayout
@@ -40,7 +40,7 @@
                 android:layout_width="@dimen/_120sdp"
                 android:layout_gravity="center"
                 android:layout_height="@dimen/_50sdp"
-                android:src="@drawable/zoo_biz_new"/>
+                android:src="@drawable/datanote_appicon"/>
             <LinearLayout
                 android:focusableInTouchMode="true"
                 android:focusable="true"
@@ -76,7 +76,7 @@
                     android:textColorLink="@color/colorPrimary"
                     android:singleLine="true"
                     android:textColor="@color/grey_60"
-                    android:textColorHint="@color/colorPrimary"
+                    android:textColorHint="@color/colorAccent"
                     android:text=""
                     android:textStyle="normal"
                     android:textSize="@dimen/textMedium14x"/>
@@ -93,7 +93,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:text="By continue you agree ZooBiz "
+                    android:text="By continue you agree DataNote "
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"

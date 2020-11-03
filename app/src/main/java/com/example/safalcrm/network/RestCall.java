@@ -20,6 +20,7 @@ import com.example.safalcrm.networkResponse.CllassifiedSubCategoriesResponse;
 import com.example.safalcrm.networkResponse.CommentResponce;
 import com.example.safalcrm.networkResponse.CommonResponse;
 import com.example.safalcrm.networkResponse.CountryResponse;
+import com.example.safalcrm.networkResponse.EmailVerification;
 import com.example.safalcrm.networkResponse.EmojiResponse;
 import com.example.safalcrm.networkResponse.FollowingDetailsResponse;
 import com.example.safalcrm.networkResponse.FrameAndImagesResponse;
@@ -58,7 +59,17 @@ import rx.Single;
 public interface RestCall {
 
     @FormUrlEncoded
-    @POST("user_controller.php")
+    @POST("EmailIDVerification")
+    Single<EmailVerification> getEMailIdVerification(
+            @Field("email_id") String email_id);
+
+    @FormUrlEncoded
+    @POST("LicenceVerification")
+    Single<BlockedMemberResponse> getLicenceAgreement(
+            @Field("email_id") String email_id);
+
+    @FormUrlEncoded
+    @POST("EmailIDVerification.php")
     Single<BlockedMemberResponse> getMyBlockedMember(
             @Field("getMyBlockedMember") String getMyBlockedMember,
             @Field("user_id") String user_id

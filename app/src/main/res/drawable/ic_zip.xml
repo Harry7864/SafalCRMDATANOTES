@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="384dp"
+    android:height="384dp"
+    android:viewportWidth="384"
+    android:viewportHeight="384">
+    <path android:pathData="M64,0l0,384l224,0l96,-96l0,-288z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="532.108"
+                android:endY="500.084"
+                android:startX="109.33199"
+                android:startY="77.34"
+                android:type="linear">
+                <item
+                    android:color="#FFEFEEEE"
+                    android:offset="0" />
+                <item
+                    android:color="#FFDEDEDD"
+                    android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#ABABAB"
+        android:pathData="M288,288l0,96l96,-96z" />
+    <path
+        android:fillColor="#DEDEDD"
+        android:pathData="M192,384l96,0l0,-96z" />
+    <path
+        android:fillColor="#F78022"
+        android:pathData="M0,96v112h256V96H0z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M59.568,129.184H36.032v-11.328h39.456v10.464l-25.632,46.752h26.016V186.4H34.32v-10.08L59.568,129.184z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M93.248,117.856h13.824V186.4H93.248V117.856z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M151.136,117.84c3.52,0 6.464,0.608 8.88,1.792s4.336,2.736 5.808,4.656s2.528,4.112 3.168,6.576c0.624,2.448 0.96,4.976 0.96,7.536c0,3.52 -0.528,6.592 -1.584,9.216c-1.056,2.624 -2.528,4.768 -4.416,6.416c-1.888,1.664 -4.176,2.928 -6.864,3.744s-5.664,1.248 -8.944,1.248h-7.392v27.36h-13.808V117.84H151.136zM146.912,148.896c2.752,0 4.992,-0.848 6.672,-2.512c1.696,-1.664 2.544,-4.256 2.544,-7.776c0,-3.456 -0.736,-6.08 -2.208,-7.872c-1.472,-1.776 -3.936,-2.688 -7.392,-2.688h-5.76v20.848H146.912z" />
+</vector>

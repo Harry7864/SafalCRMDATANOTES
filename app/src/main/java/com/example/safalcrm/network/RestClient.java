@@ -31,7 +31,7 @@ public class RestClient {
                     public Response intercept(Chain chain) throws IOException {
                         return chain.proceed(chain.request()
                                 .newBuilder()
-                                .addHeader("key", Tools.Decode(VariableBag.API_KEY))
+//                                .addHeader("key", Tools.Decode(VariableBag.API_KEY))
                                 .build());
                     }
                 })

@@ -30,7 +30,7 @@
                 android:layout_gravity="start|top"
                 android:layout_marginLeft="@dimen/_5sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:src="@drawable/zoo_biz_new" />
+                android:src="@drawable/datanote_appicon" />
 
             <ImageView
                 android:id="@+id/companyLogo"
@@ -39,7 +39,7 @@
                 android:layout_gravity="end|top"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:layout_marginRight="@dimen/_5sdp"
-                android:src="@drawable/zoo_biz_new" />
+                android:src="@drawable/datanote_appicon" />
 
             <LinearLayout
                 android:layout_width="match_parent"

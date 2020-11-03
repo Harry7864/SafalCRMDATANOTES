@@ -7,7 +7,7 @@ public class VariableBag {
 
     //public static String BASE_URL = "https://www.zoobiz.in/mobileApi/";
 
-      public static String BASE_URL = "https://dev.zoobiz.in/mobileApi/";
+      public static String BASE_URL = "https://safal.datanote.co.in/mobileapp/MobileApp/";
 
     //public static String BASE_URL = "http://192.168.0.101/zoobiz/mobileApi/";
 
